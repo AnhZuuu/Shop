@@ -1,0 +1,126 @@
+body {
+    background: url(../images/background1.png) no-repeat fixed center center;
+    background-size: cover;
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    width: auto;
+    height: 50px;
+    background: linear-gradient(90deg, rgba(154,197,244,1) 29%, rgba(144,170,203,1) 100%);
+    overflow: hidden;
+}
+
+.navbar .left-links, .right-links {
+    display: flex;
+    float: left;
+    width: 50%;
+}
+.navbar .right-links p {
+    margin-left: auto;
+}
+
+.navbar a, p {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1.1em 1.5em;
+    text-decoration: none;
+    margin-top: auto; margin-bottom: auto;
+}
+
+.navbar a:hover {
+    background-color: #5b7da9;
+    border: none;
+}
+
+.navbar .active {
+    background-color: #FEF1E6;
+    color: #555;
+}
+
+.navbar::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.logo {
+    margin-right: 1%;
+    margin-left: 1%;
+}
+.logoimg {
+    width: 50px;
+    height: auto;
+    padding: 0 0 0 0;
+}
+
+form {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-left: auto;
+    float: right;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+form input[type="text"] {
+    margin: auto 1% auto 65%;
+    width: 20%;
+}
+form input[type="submit"] {
+    margin: auto 1% auto auto;
+    width: 5%;
+}
+/*style for table*/
+table {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+table th {
+    background: #F9D5A7;
+}
+
+th:nth-child(1) {
+    width: 3%;
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #ccc;
+}
+td input[type=text] {
+    display: inline;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: transparent;
+    outline: none;
+    border: none;
+}
+#changeStatus {
+    width: 15%;
+}
+
+.tableFooter {
+    border-top: 1px solid;
+    width: 100%;
+    float: left;
+    background-color: #f2f2f2;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.tableFooter h3 {
+    float: right;
+    margin-right: 7%;
+    margin-bottom: 0;
+    margin-top: 0;
+}

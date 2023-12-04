@@ -1,0 +1,188 @@
+body {
+    background: url(../images/background1.png) no-repeat fixed center center;
+    background-size: cover;
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    width: auto;
+    height: 50px;
+    background: rgb(154,197,244);
+    background: -moz-linear-gradient(90deg, rgba(154,197,244,1) 29%, rgba(144,170,203,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(154,197,244,1) 29%, rgba(144,170,203,1) 100%);
+    background: linear-gradient(90deg, rgba(154,197,244,1) 29%, rgba(144,170,203,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9ac5f4",endColorstr="#90aacb",GradientType=1);
+    overflow: hidden;
+}
+
+/* Navigation bar links on the left side */
+.navbar .left-links {
+    display: flex;
+    float: left;
+    width: 50%;
+}
+
+/* Navigation bar links on the right side */
+.navbar .right-links {
+    display: flex;
+    width: 50%;
+}
+
+.navbar .right-links form, .loginName {
+    color: #fffdfd;
+    text-align: center;
+    margin: auto 1% auto auto;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+.logoimg {
+    width: 50px;
+    height: auto;
+    padding: 0 0 0 0;
+}
+
+/* Navigation bar link styles */
+.navbar a, p {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1.1em 1.5em;
+    text-decoration: none;
+    margin-top: auto; margin-bottom: auto;
+}
+
+/* Navigation bar link hover effect */
+.navbar a:hover {
+    background-color: #5b7da9;
+    border: none;
+}
+
+/* Active link */
+.navbar .active {
+    background-color: #FEF1E6;
+    color: #555;
+}
+
+/* Clear floats after the links */
+.navbar::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.navbar .cart {
+    padding: 0.8em 1em;
+}
+.navbar .cart img {
+     width: 25px;
+     height: auto;
+}
+
+/* SHOPPING STYLES */
+.shop {
+    margin: 3% 1% 0 5%;
+}
+.product {
+    border: 2px solid;
+    border-color: #ff656c;
+    border-collapse: collapse;
+    width: 30%;
+    height: auto;
+    float: left;
+    margin: 1% 1% 1% 1%;
+}
+#buy{
+    text-align: left;
+    width: 100%;
+    height: 100%;
+}
+#buy input{
+    width: 20%;
+}
+#buy input[type="number"]{
+    width: 50%;
+}
+.product input {
+    box-sizing: border-box;
+    outline: none;
+    padding: 1px;
+    margin-top: 2px;
+    margin-bottom: 3px;
+}
+td {
+    width: 90%;
+    text-align: left;
+    background-color: aliceblue;
+    border-collapse: collapse;
+}
+#bold {
+    font-weight: bold;
+    color: black;
+}
+.productimg {
+ width: 20%;
+ height: auto;
+}
+.img {
+    width: 125px;
+    height: 125px;
+    padding: 1%;
+    padding-left: 0;
+}
+
+
+
+.order {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.order th {
+    background: #F9D5A7;
+}
+
+.order th:nth-child(1) {
+    width: 3%;
+}
+
+.order tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.order tr:nth-child(even) {
+    background-color: #ccc;
+}
+.order td input[type=text] {
+    display: inline;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: transparent;
+    outline: none;
+    border: none;
+}
+
+.tableFooter {
+    border-top: 1px solid;
+    width: 100%;
+    float: left;
+    background-color: #f2f2f2;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.tableFooter h3 {
+    float: right;
+    margin-right: 7%;
+    margin-bottom: 0;
+    margin-top: 0;
+}
